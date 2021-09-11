@@ -1,0 +1,22 @@
+{
+  "name": "sequalize-example",
+  "version": "1.0.0",
+  "description": "Ejemplo de manejo de sequalize con express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./app.js"
+  },
+  "author": "JoseanSG",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "mariadb": "^2.5.4",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
